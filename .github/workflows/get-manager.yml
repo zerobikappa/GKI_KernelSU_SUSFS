@@ -69,7 +69,6 @@ jobs:
           elif [ "${{ inputs.kernelsu_variant }}" == "SukiSU" ]; then
             echo "This is the SukiSU variant"
             git clone https://github.com/SukiSU-Ultra/SukiSU-Ultra.git KernelSU
-            git -C KernelSU checkout 904c60d18f026340ce38ca2d5a1da529aadcba1a
           elif [ "${{ inputs.kernelsu_variant }}" == "SukiSU(40726)" ]; then
             echo "This is the SukiSU(40726) variant"
             git clone https://github.com/SukiSU-Ultra/SukiSU-Ultra.git KernelSU
